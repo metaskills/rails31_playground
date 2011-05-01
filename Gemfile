@@ -24,6 +24,9 @@ gem 'uglifier'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+# My gems
+gem 'therubyracer', '~> 0.8.2.pre'
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
